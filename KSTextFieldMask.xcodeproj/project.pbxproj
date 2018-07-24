@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5ADF805ACA0BE6AB4E3A37 /* Pods_KSTextFieldMaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B51047247D876C7C0462346 /* Pods_KSTextFieldMaskTests.framework */; };
+		450126248F867C87A6DAFF18 /* Pods_KSTextFieldMaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF5B3FB8A74C5A3A6646C16 /* Pods_KSTextFieldMaskUITests.framework */; };
+		589110E92107371400EA5BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 589110E82107371400EA5BAF /* AppDelegate.m */; };
+		589110EC2107371400EA5BAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589110EB2107371400EA5BAF /* ViewController.m */; };
+		589110EF2107371400EA5BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589110ED2107371400EA5BAF /* Main.storyboard */; };
+		589110F12107371600EA5BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589110F02107371600EA5BAF /* Assets.xcassets */; };
+		589110F42107371600EA5BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589110F22107371600EA5BAF /* LaunchScreen.storyboard */; };
+		589110F72107371600EA5BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 589110F62107371600EA5BAF /* main.m */; };
+		589111012107371600EA5BAF /* KSTextFieldMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 589111002107371600EA5BAF /* KSTextFieldMaskTests.m */; };
+		5891110C2107371600EA5BAF /* KSTextFieldMaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5891110B2107371600EA5BAF /* KSTextFieldMaskUITests.m */; };
+		5891111A2107378B00EA5BAF /* JMMaskTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589111192107378B00EA5BAF /* JMMaskTextField.framework */; };
+		5AF4129F9336C8299E1F5F1E /* Pods_KSTextFieldMask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0982B353D1FA8485C80076F /* Pods_KSTextFieldMask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		589110FD2107371600EA5BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 589110DC2107371400EA5BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589110E32107371400EA5BAF;
+			remoteInfo = KSTextFieldMask;
+		};
+		589111082107371600EA5BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 589110DC2107371400EA5BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589110E32107371400EA5BAF;
+			remoteInfo = KSTextFieldMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D29F447BF357EDE3470D85D /* Pods-KSTextFieldMask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSTextFieldMask.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSTextFieldMask/Pods-KSTextFieldMask.release.xcconfig"; sourceTree = "<group>"; };
+		2B51047247D876C7C0462346 /* Pods_KSTextFieldMaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSTextFieldMaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		589110E42107371400EA5BAF /* KSTextFieldMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSTextFieldMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		589110E72107371400EA5BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		589110E82107371400EA5BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		589110EA2107371400EA5BAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		589110EB2107371400EA5BAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		589110EE2107371400EA5BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		589110F02107371600EA5BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		589110F32107371600EA5BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		589110F52107371600EA5BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589110F62107371600EA5BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		589110FC2107371600EA5BAF /* KSTextFieldMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSTextFieldMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		589111002107371600EA5BAF /* KSTextFieldMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSTextFieldMaskTests.m; sourceTree = "<group>"; };
+		589111022107371600EA5BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589111072107371600EA5BAF /* KSTextFieldMaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSTextFieldMaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5891110B2107371600EA5BAF /* KSTextFieldMaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSTextFieldMaskUITests.m; sourceTree = "<group>"; };
+		5891110D2107371600EA5BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589111192107378B00EA5BAF /* JMMaskTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JMMaskTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651115F97127080AA1BFE936 /* Pods-KSTextFieldMaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSTextFieldMaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSTextFieldMaskTests/Pods-KSTextFieldMaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6E74A9E51950522C29C5ACD /* Pods-KSTextFieldMaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSTextFieldMaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSTextFieldMaskUITests/Pods-KSTextFieldMaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA405DBB066B4629EB2245BA /* Pods-KSTextFieldMaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSTextFieldMaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSTextFieldMaskUITests/Pods-KSTextFieldMaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0982B353D1FA8485C80076F /* Pods_KSTextFieldMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSTextFieldMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C909F459F19097FBC1D3E08E /* Pods-KSTextFieldMaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSTextFieldMaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSTextFieldMaskTests/Pods-KSTextFieldMaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF5B3FB8A74C5A3A6646C16 /* Pods_KSTextFieldMaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSTextFieldMaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF84834D66F0D8DF3FA752E4 /* Pods-KSTextFieldMask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSTextFieldMask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSTextFieldMask/Pods-KSTextFieldMask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		589110E12107371400EA5BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5891111A2107378B00EA5BAF /* JMMaskTextField.framework in Frameworks */,
+				5AF4129F9336C8299E1F5F1E /* Pods_KSTextFieldMask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589110F92107371600EA5BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5ADF805ACA0BE6AB4E3A37 /* Pods_KSTextFieldMaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589111042107371600EA5BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450126248F867C87A6DAFF18 /* Pods_KSTextFieldMaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0C5CFC0400C0FEFA3416E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				589111192107378B00EA5BAF /* JMMaskTextField.framework */,
+				B0982B353D1FA8485C80076F /* Pods_KSTextFieldMask.framework */,
+				2B51047247D876C7C0462346 /* Pods_KSTextFieldMaskTests.framework */,
+				ECF5B3FB8A74C5A3A6646C16 /* Pods_KSTextFieldMaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		589110DB2107371400EA5BAF = {
+			isa = PBXGroup;
+			children = (
+				589110E62107371400EA5BAF /* KSTextFieldMask */,
+				589110FF2107371600EA5BAF /* KSTextFieldMaskTests */,
+				5891110A2107371600EA5BAF /* KSTextFieldMaskUITests */,
+				589110E52107371400EA5BAF /* Products */,
+				B66A6FD61D8B495BF7D92DEC /* Pods */,
+				3F0C5CFC0400C0FEFA3416E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		589110E52107371400EA5BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				589110E42107371400EA5BAF /* KSTextFieldMask.app */,
+				589110FC2107371600EA5BAF /* KSTextFieldMaskTests.xctest */,
+				589111072107371600EA5BAF /* KSTextFieldMaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		589110E62107371400EA5BAF /* KSTextFieldMask */ = {
+			isa = PBXGroup;
+			children = (
+				589110E72107371400EA5BAF /* AppDelegate.h */,
+				589110E82107371400EA5BAF /* AppDelegate.m */,
+				589110EA2107371400EA5BAF /* ViewController.h */,
+				589110EB2107371400EA5BAF /* ViewController.m */,
+				589110ED2107371400EA5BAF /* Main.storyboard */,
+				589110F02107371600EA5BAF /* Assets.xcassets */,
+				589110F22107371600EA5BAF /* LaunchScreen.storyboard */,
+				589110F52107371600EA5BAF /* Info.plist */,
+				589110F62107371600EA5BAF /* main.m */,
+			);
+			path = KSTextFieldMask;
+			sourceTree = "<group>";
+		};
+		589110FF2107371600EA5BAF /* KSTextFieldMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				589111002107371600EA5BAF /* KSTextFieldMaskTests.m */,
+				589111022107371600EA5BAF /* Info.plist */,
+			);
+			path = KSTextFieldMaskTests;
+			sourceTree = "<group>";
+		};
+		5891110A2107371600EA5BAF /* KSTextFieldMaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5891110B2107371600EA5BAF /* KSTextFieldMaskUITests.m */,
+				5891110D2107371600EA5BAF /* Info.plist */,
+			);
+			path = KSTextFieldMaskUITests;
+			sourceTree = "<group>";
+		};
+		B66A6FD61D8B495BF7D92DEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF84834D66F0D8DF3FA752E4 /* Pods-KSTextFieldMask.debug.xcconfig */,
+				1D29F447BF357EDE3470D85D /* Pods-KSTextFieldMask.release.xcconfig */,
+				C909F459F19097FBC1D3E08E /* Pods-KSTextFieldMaskTests.debug.xcconfig */,
+				651115F97127080AA1BFE936 /* Pods-KSTextFieldMaskTests.release.xcconfig */,
+				AA405DBB066B4629EB2245BA /* Pods-KSTextFieldMaskUITests.debug.xcconfig */,
+				A6E74A9E51950522C29C5ACD /* Pods-KSTextFieldMaskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		589110E32107371400EA5BAF /* KSTextFieldMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589111102107371600EA5BAF /* Build configuration list for PBXNativeTarget "KSTextFieldMask" */;
+			buildPhases = (
+				513511044DFCA52B729C5784 /* [CP] Check Pods Manifest.lock */,
+				589110E02107371400EA5BAF /* Sources */,
+				589110E12107371400EA5BAF /* Frameworks */,
+				589110E22107371400EA5BAF /* Resources */,
+				8D895093F13E76A36AFD3230 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSTextFieldMask;
+			productName = KSTextFieldMask;
+			productReference = 589110E42107371400EA5BAF /* KSTextFieldMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		589110FB2107371600EA5BAF /* KSTextFieldMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589111132107371600EA5BAF /* Build configuration list for PBXNativeTarget "KSTextFieldMaskTests" */;
+			buildPhases = (
+				64F80BF6B3CCE38AC6DCB1C9 /* [CP] Check Pods Manifest.lock */,
+				589110F82107371600EA5BAF /* Sources */,
+				589110F92107371600EA5BAF /* Frameworks */,
+				589110FA2107371600EA5BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				589110FE2107371600EA5BAF /* PBXTargetDependency */,
+			);
+			name = KSTextFieldMaskTests;
+			productName = KSTextFieldMaskTests;
+			productReference = 589110FC2107371600EA5BAF /* KSTextFieldMaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		589111062107371600EA5BAF /* KSTextFieldMaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589111162107371600EA5BAF /* Build configuration list for PBXNativeTarget "KSTextFieldMaskUITests" */;
+			buildPhases = (
+				A0FB898AD25A6E8CC65EB0A6 /* [CP] Check Pods Manifest.lock */,
+				589111032107371600EA5BAF /* Sources */,
+				589111042107371600EA5BAF /* Frameworks */,
+				589111052107371600EA5BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				589111092107371600EA5BAF /* PBXTargetDependency */,
+			);
+			name = KSTextFieldMaskUITests;
+			productName = KSTextFieldMaskUITests;
+			productReference = 589111072107371600EA5BAF /* KSTextFieldMaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		589110DC2107371400EA5BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Sergey;
+				TargetAttributes = {
+					589110E32107371400EA5BAF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					589110FB2107371600EA5BAF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 589110E32107371400EA5BAF;
+					};
+					589111062107371600EA5BAF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 589110E32107371400EA5BAF;
+					};
+				};
+			};
+			buildConfigurationList = 589110DF2107371400EA5BAF /* Build configuration list for PBXProject "KSTextFieldMask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 589110DB2107371400EA5BAF;
+			productRefGroup = 589110E52107371400EA5BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				589110E32107371400EA5BAF /* KSTextFieldMask */,
+				589110FB2107371600EA5BAF /* KSTextFieldMaskTests */,
+				589111062107371600EA5BAF /* KSTextFieldMaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		589110E22107371400EA5BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589110F42107371600EA5BAF /* LaunchScreen.storyboard in Resources */,
+				589110F12107371600EA5BAF /* Assets.xcassets in Resources */,
+				589110EF2107371400EA5BAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589110FA2107371600EA5BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589111052107371600EA5BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		513511044DFCA52B729C5784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSTextFieldMask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64F80BF6B3CCE38AC6DCB1C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSTextFieldMaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D895093F13E76A36AFD3230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KSTextFieldMask/Pods-KSTextFieldMask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JMMaskTextField/JMMaskTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JMMaskTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSTextFieldMask/Pods-KSTextFieldMask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FB898AD25A6E8CC65EB0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSTextFieldMaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		589110E02107371400EA5BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589110EC2107371400EA5BAF /* ViewController.m in Sources */,
+				589110F72107371600EA5BAF /* main.m in Sources */,
+				589110E92107371400EA5BAF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589110F82107371600EA5BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589111012107371600EA5BAF /* KSTextFieldMaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589111032107371600EA5BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5891110C2107371600EA5BAF /* KSTextFieldMaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		589110FE2107371600EA5BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 589110E32107371400EA5BAF /* KSTextFieldMask */;
+			targetProxy = 589110FD2107371600EA5BAF /* PBXContainerItemProxy */;
+		};
+		589111092107371600EA5BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 589110E32107371400EA5BAF /* KSTextFieldMask */;
+			targetProxy = 589111082107371600EA5BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		589110ED2107371400EA5BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589110EE2107371400EA5BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		589110F22107371600EA5BAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589110F32107371600EA5BAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5891110E2107371600EA5BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5891110F2107371600EA5BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		589111112107371600EA5BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF84834D66F0D8DF3FA752E4 /* Pods-KSTextFieldMask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KSTextFieldMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sirius.KSTextFieldMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		589111122107371600EA5BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D29F447BF357EDE3470D85D /* Pods-KSTextFieldMask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KSTextFieldMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sirius.KSTextFieldMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		589111142107371600EA5BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C909F459F19097FBC1D3E08E /* Pods-KSTextFieldMaskTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSTextFieldMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sirius.KSTextFieldMaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSTextFieldMask.app/KSTextFieldMask";
+			};
+			name = Debug;
+		};
+		589111152107371600EA5BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651115F97127080AA1BFE936 /* Pods-KSTextFieldMaskTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSTextFieldMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sirius.KSTextFieldMaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSTextFieldMask.app/KSTextFieldMask";
+			};
+			name = Release;
+		};
+		589111172107371600EA5BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA405DBB066B4629EB2245BA /* Pods-KSTextFieldMaskUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSTextFieldMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sirius.KSTextFieldMaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSTextFieldMask;
+			};
+			name = Debug;
+		};
+		589111182107371600EA5BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E74A9E51950522C29C5ACD /* Pods-KSTextFieldMaskUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSTextFieldMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sirius.KSTextFieldMaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSTextFieldMask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		589110DF2107371400EA5BAF /* Build configuration list for PBXProject "KSTextFieldMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5891110E2107371600EA5BAF /* Debug */,
+				5891110F2107371600EA5BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589111102107371600EA5BAF /* Build configuration list for PBXNativeTarget "KSTextFieldMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589111112107371600EA5BAF /* Debug */,
+				589111122107371600EA5BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589111132107371600EA5BAF /* Build configuration list for PBXNativeTarget "KSTextFieldMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589111142107371600EA5BAF /* Debug */,
+				589111152107371600EA5BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589111162107371600EA5BAF /* Build configuration list for PBXNativeTarget "KSTextFieldMaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589111172107371600EA5BAF /* Debug */,
+				589111182107371600EA5BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 589110DC2107371400EA5BAF /* Project object */;
+}

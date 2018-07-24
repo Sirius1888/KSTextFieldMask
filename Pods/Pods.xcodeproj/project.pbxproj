@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C6E4C24FE30010C9E08E6D0A8A2DCA /* Pods-KSTextFieldMask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3321860D9DB8B0973C93329FF95375 /* Pods-KSTextFieldMask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A5F8C173F2D240A12119F4D542D859 /* Pods-KSTextFieldMaskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BDB531E8C761B49BE5775D2E016284 /* Pods-KSTextFieldMaskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BE776382D08BC9F84D74121A583AAB /* JMMaskTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE9E985BC305B687EE8E9C4C3F89C42 /* JMMaskTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27C0D160E6D23306F56FD68BC25B44C3 /* JMMaskTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BF02D81C471E8C23AD3FD488AB0DC6 /* JMMaskTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29FA614259ECB3F9BD3902837F517BF8 /* Pods-KSTextFieldMask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3132610F2BF0AE89D5D5AF1AABCFE1F /* Pods-KSTextFieldMask-dummy.m */; };
+		3BDDD5C52CB993CE7FE4111D057C8057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7F30B1DD941970786E8D3C2FEA46C250 /* JMMaskTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F17B54999B1CBE55394F22590D1DD /* JMMaskTextField.m */; };
+		7FA9D443DDB6B1F113EF2A000CC01BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		882C62DC095FFF7426ACF6E93C410F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9524669B65E144167A94FCE77475AB26 /* JMStringMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2A262632D9EE57FCD0846A87ACC5E0 /* JMStringMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA78221EB6DC998632EB0DCF04B7496 /* Pods-KSTextFieldMaskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B34556BD85C5FABBD7F63EF07B05C774 /* Pods-KSTextFieldMaskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EF778C6A29309EFCB4CCA90BA987D7F /* JMMaskTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D45A06ACED61966282A0A450E3F014 /* JMMaskTextField-dummy.m */; };
+		9F2A81D288A5FA61DF6F4006AEFBA66F /* Pods-KSTextFieldMaskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A87DAA35CC9C7817800C54C9A4CC5C /* Pods-KSTextFieldMaskUITests-dummy.m */; };
+		BA9E9C3ECF453719D08EC5E4F585DC1C /* JMStringMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DBB5222F314DBEC25F5E042B18101A /* JMStringMask.m */; };
+		F04FEB2BB35A94AD581198E54B9E7264 /* Pods-KSTextFieldMaskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DBD8078DD093FA7D3CE4EFE817BC5 /* Pods-KSTextFieldMaskTests-dummy.m */; };
+		F4E6D1578A0F21A954E7703EA3F57C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE9220B3B5DFC489564E0C13D6B8B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B30C44FCFC76844CEF868B241D8ECD2;
+			remoteInfo = "Pods-KSTextFieldMask";
+		};
+		79CDA52F8D13FC59673B2820D2DC0F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B30C44FCFC76844CEF868B241D8ECD2;
+			remoteInfo = "Pods-KSTextFieldMask";
+		};
+		9DBF784338AAB6017E1CCA8BA8554906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AAC9083009569A3D907451CD0B03736;
+			remoteInfo = JMMaskTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D448ACDA56DFA1D09D9059C17903FD /* Pods-KSTextFieldMaskTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSTextFieldMaskTests-resources.sh"; sourceTree = "<group>"; };
+		01C2591A17A6757C94114F175749B561 /* Pods-KSTextFieldMaskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSTextFieldMaskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0247B1DB8AD240D06E0BE5C5FE39C716 /* Pods-KSTextFieldMask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSTextFieldMask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		026CDC5CD408213D1E2DB31590325017 /* Pods-KSTextFieldMaskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSTextFieldMaskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A6BAA3D59800145275B81CC62C900A8 /* Pods-KSTextFieldMaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSTextFieldMaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3523599E02BAC4B19B89E422B588CE2E /* Pods-KSTextFieldMaskTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSTextFieldMaskTests-frameworks.sh"; sourceTree = "<group>"; };
+		37A57E313E1359141A9A9C316ED08292 /* JMMaskTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JMMaskTextField.modulemap; sourceTree = "<group>"; };
+		390FE67D9016B2FD3AAEBF5748EE1605 /* Pods-KSTextFieldMask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSTextFieldMask.debug.xcconfig"; sourceTree = "<group>"; };
+		40DD6114B62345645D2BCE6886828182 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E87A9AC1485C80B85611567F14FC69 /* Pods-KSTextFieldMask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSTextFieldMask-frameworks.sh"; sourceTree = "<group>"; };
+		507E0B02EA9785EC7945918E3BA1891C /* Pods-KSTextFieldMaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSTextFieldMaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		583CE4F2E1542D03ED91C2B9886DDEC1 /* Pods-KSTextFieldMask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSTextFieldMask-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		623461C4DC496728044ECC7040AF59FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D45A06ACED61966282A0A450E3F014 /* JMMaskTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMMaskTextField-dummy.m"; sourceTree = "<group>"; };
+		6C1DBF9361B784B04457813F63C76F6E /* Pods_KSTextFieldMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSTextFieldMask.framework; path = "Pods-KSTextFieldMask.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E556CB08BD9CA716F9C6BDAF6C8CBAE /* Pods_KSTextFieldMaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSTextFieldMaskTests.framework; path = "Pods-KSTextFieldMaskTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7484A2B8D764E14EB6E33A3B7D868C58 /* Pods-KSTextFieldMaskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSTextFieldMaskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AB68A57B1DEB8CD26297CF2599313EF /* JMMaskTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMaskTextField-prefix.pch"; sourceTree = "<group>"; };
+		7EC13BD1FD97BC6B4B06E83E23E416FD /* Pods-KSTextFieldMask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSTextFieldMask-resources.sh"; sourceTree = "<group>"; };
+		828291A47BA5ECD0F42DDE9B86E1C268 /* JMMaskTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMMaskTextField.xcconfig; sourceTree = "<group>"; };
+		87A87DAA35CC9C7817800C54C9A4CC5C /* Pods-KSTextFieldMaskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSTextFieldMaskUITests-dummy.m"; sourceTree = "<group>"; };
+		8F01A0727BFC807B341EDCEA3E51CF89 /* JMMaskTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMMaskTextField.framework; path = JMMaskTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2A262632D9EE57FCD0846A87ACC5E0 /* JMStringMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMStringMask.h; path = JMMaskTextField/Classes/JMStringMask.h; sourceTree = "<group>"; };
+		8F982C31DCAC25DD95A07D6DA98A665A /* Pods-KSTextFieldMaskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSTextFieldMaskTests.modulemap"; sourceTree = "<group>"; };
+		91DFECBE8D2C5F09F9ABFE9B9559DBD1 /* Pods-KSTextFieldMaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSTextFieldMaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92DBB5222F314DBEC25F5E042B18101A /* JMStringMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMStringMask.m; path = JMMaskTextField/Classes/JMStringMask.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C39CB6A737334C6938B1F4F0A3D025 /* Pods-KSTextFieldMaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSTextFieldMaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A65DAD5A1E1B4E8BFC82294E4A935EB4 /* Pods_KSTextFieldMaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSTextFieldMaskUITests.framework; path = "Pods-KSTextFieldMaskUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66DBD8078DD093FA7D3CE4EFE817BC5 /* Pods-KSTextFieldMaskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSTextFieldMaskTests-dummy.m"; sourceTree = "<group>"; };
+		A7BF02D81C471E8C23AD3FD488AB0DC6 /* JMMaskTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMaskTextField-umbrella.h"; sourceTree = "<group>"; };
+		AB882FE8665A408441DC6221984BCF1F /* Pods-KSTextFieldMask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSTextFieldMask.release.xcconfig"; sourceTree = "<group>"; };
+		AB9EF9EB89D06F9CD4516FB430A5BEA6 /* Pods-KSTextFieldMaskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSTextFieldMaskUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AE3321860D9DB8B0973C93329FF95375 /* Pods-KSTextFieldMask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSTextFieldMask-umbrella.h"; sourceTree = "<group>"; };
+		B34556BD85C5FABBD7F63EF07B05C774 /* Pods-KSTextFieldMaskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSTextFieldMaskTests-umbrella.h"; sourceTree = "<group>"; };
+		BD1E1A9400B0063AB693CCAAFA5FCCE5 /* Pods-KSTextFieldMaskUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSTextFieldMaskUITests-resources.sh"; sourceTree = "<group>"; };
+		C3132610F2BF0AE89D5D5AF1AABCFE1F /* Pods-KSTextFieldMask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSTextFieldMask-dummy.m"; sourceTree = "<group>"; };
+		C7FD8C64FEA0E55D8B2300CE8CFBF1FE /* Pods-KSTextFieldMaskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSTextFieldMaskTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8BDB531E8C761B49BE5775D2E016284 /* Pods-KSTextFieldMaskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSTextFieldMaskUITests-umbrella.h"; sourceTree = "<group>"; };
+		CFE9E985BC305B687EE8E9C4C3F89C42 /* JMMaskTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMMaskTextField.h; path = JMMaskTextField/Classes/JMMaskTextField.h; sourceTree = "<group>"; };
+		D2AFFEDC8E38EBCC9E52C5032A36046A /* Pods-KSTextFieldMask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSTextFieldMask.modulemap"; sourceTree = "<group>"; };
+		D6F14FD4B257028D372D1D041B28DEE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99F17B54999B1CBE55394F22590D1DD /* JMMaskTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMMaskTextField.m; path = JMMaskTextField/Classes/JMMaskTextField.m; sourceTree = "<group>"; };
+		EDF61FC3860F6043217350FD4B94D73A /* Pods-KSTextFieldMaskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSTextFieldMaskUITests.modulemap"; sourceTree = "<group>"; };
+		F69AB01752F3AD7716358CFFF6CBBFA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0281C66E342DA8586141FFBE82143129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882C62DC095FFF7426ACF6E93C410F29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448F19C180997BCC972ABB26C8DB9494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDDD5C52CB993CE7FE4111D057C8057 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6841B93DDEF03C22B88151543123C6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E6D1578A0F21A954E7703EA3F57C26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7197E89F30FDD80B1625034CFCC6C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA9D443DDB6B1F113EF2A000CC01BE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C02BD1486646C061FD64A4C7758B4BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D60CF52C2739C033F7862B309B63A197 /* JMMaskTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F88A0D6B7F7C24E0674A91D81BB1374 /* Pods-KSTextFieldMaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40DD6114B62345645D2BCE6886828182 /* Info.plist */,
+				EDF61FC3860F6043217350FD4B94D73A /* Pods-KSTextFieldMaskUITests.modulemap */,
+				01C2591A17A6757C94114F175749B561 /* Pods-KSTextFieldMaskUITests-acknowledgements.markdown */,
+				026CDC5CD408213D1E2DB31590325017 /* Pods-KSTextFieldMaskUITests-acknowledgements.plist */,
+				87A87DAA35CC9C7817800C54C9A4CC5C /* Pods-KSTextFieldMaskUITests-dummy.m */,
+				AB9EF9EB89D06F9CD4516FB430A5BEA6 /* Pods-KSTextFieldMaskUITests-frameworks.sh */,
+				BD1E1A9400B0063AB693CCAAFA5FCCE5 /* Pods-KSTextFieldMaskUITests-resources.sh */,
+				C8BDB531E8C761B49BE5775D2E016284 /* Pods-KSTextFieldMaskUITests-umbrella.h */,
+				2A6BAA3D59800145275B81CC62C900A8 /* Pods-KSTextFieldMaskUITests.debug.xcconfig */,
+				A1C39CB6A737334C6938B1F4F0A3D025 /* Pods-KSTextFieldMaskUITests.release.xcconfig */,
+			);
+			name = "Pods-KSTextFieldMaskUITests";
+			path = "Target Support Files/Pods-KSTextFieldMaskUITests";
+			sourceTree = "<group>";
+		};
+		4CBBC7835FDEB7C75B77F2ECE926CD4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F01A0727BFC807B341EDCEA3E51CF89 /* JMMaskTextField.framework */,
+				6C1DBF9361B784B04457813F63C76F6E /* Pods_KSTextFieldMask.framework */,
+				6E556CB08BD9CA716F9C6BDAF6C8CBAE /* Pods_KSTextFieldMaskTests.framework */,
+				A65DAD5A1E1B4E8BFC82294E4A935EB4 /* Pods_KSTextFieldMaskUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DD123F115E5F1127328DC01276BE4F0 /* Pods-KSTextFieldMask */ = {
+			isa = PBXGroup;
+			children = (
+				D6F14FD4B257028D372D1D041B28DEE5 /* Info.plist */,
+				D2AFFEDC8E38EBCC9E52C5032A36046A /* Pods-KSTextFieldMask.modulemap */,
+				0247B1DB8AD240D06E0BE5C5FE39C716 /* Pods-KSTextFieldMask-acknowledgements.markdown */,
+				583CE4F2E1542D03ED91C2B9886DDEC1 /* Pods-KSTextFieldMask-acknowledgements.plist */,
+				C3132610F2BF0AE89D5D5AF1AABCFE1F /* Pods-KSTextFieldMask-dummy.m */,
+				43E87A9AC1485C80B85611567F14FC69 /* Pods-KSTextFieldMask-frameworks.sh */,
+				7EC13BD1FD97BC6B4B06E83E23E416FD /* Pods-KSTextFieldMask-resources.sh */,
+				AE3321860D9DB8B0973C93329FF95375 /* Pods-KSTextFieldMask-umbrella.h */,
+				390FE67D9016B2FD3AAEBF5748EE1605 /* Pods-KSTextFieldMask.debug.xcconfig */,
+				AB882FE8665A408441DC6221984BCF1F /* Pods-KSTextFieldMask.release.xcconfig */,
+			);
+			name = "Pods-KSTextFieldMask";
+			path = "Target Support Files/Pods-KSTextFieldMask";
+			sourceTree = "<group>";
+		};
+		77A58F638AEAD5BC634A4E06286582FE /* Pods-KSTextFieldMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69AB01752F3AD7716358CFFF6CBBFA8 /* Info.plist */,
+				8F982C31DCAC25DD95A07D6DA98A665A /* Pods-KSTextFieldMaskTests.modulemap */,
+				7484A2B8D764E14EB6E33A3B7D868C58 /* Pods-KSTextFieldMaskTests-acknowledgements.markdown */,
+				C7FD8C64FEA0E55D8B2300CE8CFBF1FE /* Pods-KSTextFieldMaskTests-acknowledgements.plist */,
+				A66DBD8078DD093FA7D3CE4EFE817BC5 /* Pods-KSTextFieldMaskTests-dummy.m */,
+				3523599E02BAC4B19B89E422B588CE2E /* Pods-KSTextFieldMaskTests-frameworks.sh */,
+				00D448ACDA56DFA1D09D9059C17903FD /* Pods-KSTextFieldMaskTests-resources.sh */,
+				B34556BD85C5FABBD7F63EF07B05C774 /* Pods-KSTextFieldMaskTests-umbrella.h */,
+				91DFECBE8D2C5F09F9ABFE9B9559DBD1 /* Pods-KSTextFieldMaskTests.debug.xcconfig */,
+				507E0B02EA9785EC7945918E3BA1891C /* Pods-KSTextFieldMaskTests.release.xcconfig */,
+			);
+			name = "Pods-KSTextFieldMaskTests";
+			path = "Target Support Files/Pods-KSTextFieldMaskTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0C02BD1486646C061FD64A4C7758B4BB /* Pods */,
+				4CBBC7835FDEB7C75B77F2ECE926CD4A /* Products */,
+				BEF2DEE7775BC5A847EF95DE5135BF4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF2DEE7775BC5A847EF95DE5135BF4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DD123F115E5F1127328DC01276BE4F0 /* Pods-KSTextFieldMask */,
+				77A58F638AEAD5BC634A4E06286582FE /* Pods-KSTextFieldMaskTests */,
+				1F88A0D6B7F7C24E0674A91D81BB1374 /* Pods-KSTextFieldMaskUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D60CF52C2739C033F7862B309B63A197 /* JMMaskTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CFE9E985BC305B687EE8E9C4C3F89C42 /* JMMaskTextField.h */,
+				D99F17B54999B1CBE55394F22590D1DD /* JMMaskTextField.m */,
+				8F2A262632D9EE57FCD0846A87ACC5E0 /* JMStringMask.h */,
+				92DBB5222F314DBEC25F5E042B18101A /* JMStringMask.m */,
+				D8BBE4BC57E9502FB977EA2B0821BD79 /* Support Files */,
+			);
+			name = JMMaskTextField;
+			path = JMMaskTextField;
+			sourceTree = "<group>";
+		};
+		D8BBE4BC57E9502FB977EA2B0821BD79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				623461C4DC496728044ECC7040AF59FD /* Info.plist */,
+				37A57E313E1359141A9A9C316ED08292 /* JMMaskTextField.modulemap */,
+				828291A47BA5ECD0F42DDE9B86E1C268 /* JMMaskTextField.xcconfig */,
+				63D45A06ACED61966282A0A450E3F014 /* JMMaskTextField-dummy.m */,
+				7AB68A57B1DEB8CD26297CF2599313EF /* JMMaskTextField-prefix.pch */,
+				A7BF02D81C471E8C23AD3FD488AB0DC6 /* JMMaskTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JMMaskTextField";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99DED86B5D3F2AAD08A0224B2E70EBBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C6E4C24FE30010C9E08E6D0A8A2DCA /* Pods-KSTextFieldMask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EFAE617758EBED5376372376CAB847 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C0D160E6D23306F56FD68BC25B44C3 /* JMMaskTextField-umbrella.h in Headers */,
+				16BE776382D08BC9F84D74121A583AAB /* JMMaskTextField.h in Headers */,
+				9524669B65E144167A94FCE77475AB26 /* JMStringMask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1A7D2CBAE34062AA239139EE6B0A50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A5F8C173F2D240A12119F4D542D859 /* Pods-KSTextFieldMaskUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F2D18963DF31648E1B2A2ABB4E1D8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA78221EB6DC998632EB0DCF04B7496 /* Pods-KSTextFieldMaskTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AAC9083009569A3D907451CD0B03736 /* JMMaskTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 316E8A5F1DC1F07E39283DEE380C3AAF /* Build configuration list for PBXNativeTarget "JMMaskTextField" */;
+			buildPhases = (
+				802B012D71679EE10D155E079B3F1428 /* Sources */,
+				7197E89F30FDD80B1625034CFCC6C3C6 /* Frameworks */,
+				B4EFAE617758EBED5376372376CAB847 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMMaskTextField;
+			productName = JMMaskTextField;
+			productReference = 8F01A0727BFC807B341EDCEA3E51CF89 /* JMMaskTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DEF2313E92FD76E1A2C757CB14CC588 /* Pods-KSTextFieldMaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E4A22346E7CFCD4EF75767D4C65E4C /* Build configuration list for PBXNativeTarget "Pods-KSTextFieldMaskUITests" */;
+			buildPhases = (
+				32BD68EDF4A0D00C7F1F6169345C3286 /* Sources */,
+				0281C66E342DA8586141FFBE82143129 /* Frameworks */,
+				BA1A7D2CBAE34062AA239139EE6B0A50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1071E5C0E8B30D728257C995876D040 /* PBXTargetDependency */,
+			);
+			name = "Pods-KSTextFieldMaskUITests";
+			productName = "Pods-KSTextFieldMaskUITests";
+			productReference = A65DAD5A1E1B4E8BFC82294E4A935EB4 /* Pods_KSTextFieldMaskUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B30C44FCFC76844CEF868B241D8ECD2 /* Pods-KSTextFieldMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC372E9CD92172C36D8B6589F7E7BA9 /* Build configuration list for PBXNativeTarget "Pods-KSTextFieldMask" */;
+			buildPhases = (
+				947460B8F0E4378D439951B35FC8884B /* Sources */,
+				6841B93DDEF03C22B88151543123C6C7 /* Frameworks */,
+				99DED86B5D3F2AAD08A0224B2E70EBBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C9C8EBA11BDEE26FB19934C7AEE5DE /* PBXTargetDependency */,
+			);
+			name = "Pods-KSTextFieldMask";
+			productName = "Pods-KSTextFieldMask";
+			productReference = 6C1DBF9361B784B04457813F63C76F6E /* Pods_KSTextFieldMask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BA30FD57DF822179BBC4576912EF695 /* Pods-KSTextFieldMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57EFBD913299F0994CA01B07784D2D7 /* Build configuration list for PBXNativeTarget "Pods-KSTextFieldMaskTests" */;
+			buildPhases = (
+				9BB0A2C4907671A9B59A243B2C757966 /* Sources */,
+				448F19C180997BCC972ABB26C8DB9494 /* Frameworks */,
+				D5F2D18963DF31648E1B2A2ABB4E1D8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A46595C4CA49ADE12E4979A4B50355F /* PBXTargetDependency */,
+			);
+			name = "Pods-KSTextFieldMaskTests";
+			productName = "Pods-KSTextFieldMaskTests";
+			productReference = 6E556CB08BD9CA716F9C6BDAF6C8CBAE /* Pods_KSTextFieldMaskTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4CBBC7835FDEB7C75B77F2ECE926CD4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AAC9083009569A3D907451CD0B03736 /* JMMaskTextField */,
+				8B30C44FCFC76844CEF868B241D8ECD2 /* Pods-KSTextFieldMask */,
+				8BA30FD57DF822179BBC4576912EF695 /* Pods-KSTextFieldMaskTests */,
+				5DEF2313E92FD76E1A2C757CB14CC588 /* Pods-KSTextFieldMaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BD68EDF4A0D00C7F1F6169345C3286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2A81D288A5FA61DF6F4006AEFBA66F /* Pods-KSTextFieldMaskUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802B012D71679EE10D155E079B3F1428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF778C6A29309EFCB4CCA90BA987D7F /* JMMaskTextField-dummy.m in Sources */,
+				7F30B1DD941970786E8D3C2FEA46C250 /* JMMaskTextField.m in Sources */,
+				BA9E9C3ECF453719D08EC5E4F585DC1C /* JMStringMask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947460B8F0E4378D439951B35FC8884B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FA614259ECB3F9BD3902837F517BF8 /* Pods-KSTextFieldMask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB0A2C4907671A9B59A243B2C757966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04FEB2BB35A94AD581198E54B9E7264 /* Pods-KSTextFieldMaskTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A46595C4CA49ADE12E4979A4B50355F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KSTextFieldMask";
+			target = 8B30C44FCFC76844CEF868B241D8ECD2 /* Pods-KSTextFieldMask */;
+			targetProxy = 4EE9220B3B5DFC489564E0C13D6B8B28 /* PBXContainerItemProxy */;
+		};
+		64C9C8EBA11BDEE26FB19934C7AEE5DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMMaskTextField;
+			target = 5AAC9083009569A3D907451CD0B03736 /* JMMaskTextField */;
+			targetProxy = 9DBF784338AAB6017E1CCA8BA8554906 /* PBXContainerItemProxy */;
+		};
+		F1071E5C0E8B30D728257C995876D040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KSTextFieldMask";
+			target = 8B30C44FCFC76844CEF868B241D8ECD2 /* Pods-KSTextFieldMask */;
+			targetProxy = 79CDA52F8D13FC59673B2820D2DC0F74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21FA3B4C9725D032E408CC65946C436D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB882FE8665A408441DC6221984BCF1F /* Pods-KSTextFieldMask.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSTextFieldMask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSTextFieldMask/Pods-KSTextFieldMask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2467DB0A0E309F4F5D5F719CC5128A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390FE67D9016B2FD3AAEBF5748EE1605 /* Pods-KSTextFieldMask.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSTextFieldMask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSTextFieldMask/Pods-KSTextFieldMask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AB0E7D6EEBF988C3378E56C90D65C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C39CB6A737334C6938B1F4F0A3D025 /* Pods-KSTextFieldMaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSTextFieldMaskUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSTextFieldMaskUITests/Pods-KSTextFieldMaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B073BB69D3AA709BD579DB3BF46A81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507E0B02EA9785EC7945918E3BA1891C /* Pods-KSTextFieldMaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSTextFieldMaskTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSTextFieldMaskTests/Pods-KSTextFieldMaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		607AABFD6EE4D2ED430745B401336083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DFECBE8D2C5F09F9ABFE9B9559DBD1 /* Pods-KSTextFieldMaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSTextFieldMaskTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSTextFieldMaskTests/Pods-KSTextFieldMaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72248C145DED59A9D847C3683B9FABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828291A47BA5ECD0F42DDE9B86E1C268 /* JMMaskTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JMMaskTextField/JMMaskTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMMaskTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JMMaskTextField/JMMaskTextField.modulemap";
+				PRODUCT_MODULE_NAME = JMMaskTextField;
+				PRODUCT_NAME = JMMaskTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F6B23C388BF4AFCD97ABEFAFF953AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6BAA3D59800145275B81CC62C900A8 /* Pods-KSTextFieldMaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSTextFieldMaskUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSTextFieldMaskUITests/Pods-KSTextFieldMaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF67A43AAD6184F869C037D0A07F3FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828291A47BA5ECD0F42DDE9B86E1C268 /* JMMaskTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JMMaskTextField/JMMaskTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMMaskTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JMMaskTextField/JMMaskTextField.modulemap";
+				PRODUCT_MODULE_NAME = JMMaskTextField;
+				PRODUCT_NAME = JMMaskTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		316E8A5F1DC1F07E39283DEE380C3AAF /* Build configuration list for PBXNativeTarget "JMMaskTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72248C145DED59A9D847C3683B9FABA9 /* Debug */,
+				FF67A43AAD6184F869C037D0A07F3FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E4A22346E7CFCD4EF75767D4C65E4C /* Build configuration list for PBXNativeTarget "Pods-KSTextFieldMaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B23C388BF4AFCD97ABEFAFF953AB9C /* Debug */,
+				25AB0E7D6EEBF988C3378E56C90D65C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC372E9CD92172C36D8B6589F7E7BA9 /* Build configuration list for PBXNativeTarget "Pods-KSTextFieldMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2467DB0A0E309F4F5D5F719CC5128A5D /* Debug */,
+				21FA3B4C9725D032E408CC65946C436D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57EFBD913299F0994CA01B07784D2D7 /* Build configuration list for PBXNativeTarget "Pods-KSTextFieldMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607AABFD6EE4D2ED430745B401336083 /* Debug */,
+				5B073BB69D3AA709BD579DB3BF46A81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

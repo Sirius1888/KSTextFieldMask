@@ -1,0 +1,6 @@
+framework module Pods_KSTextFieldMaskUITests {
+  umbrella header "Pods-KSTextFieldMaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
